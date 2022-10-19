@@ -1,2 +1,3 @@
-# projetobarbearia-blackbeard
-Projeto de um site de barbearia utilizando HTML e CSS. Utiliza no CSS, grid e flexbox.
+# Projeto exemplo da Barbearia Black Beard.
+
+Esse é um projeo no qual eu aprendi a fazer um site utilizado HTML e CSS. Em algumas partes do site foi utilizado Flexbox e Grid.
