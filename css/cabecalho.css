@@ -1,0 +1,88 @@
+:root{
+    --fonte-menu:'Fira Sans', sans-serif;
+    --cor-do-menu:#FFFFFF;
+    --cor-do-Home:#FF8E00;
+}
+
+
+.cabecalho{
+    background-image: url("../img/barbeiro.jpg");
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 600px;
+    width: 100%;
+    
+}   
+
+.cabecalho-logo{
+    width: 150px;
+    margin: 10px 0;
+}
+
+.cabecalho-menu{
+    margin: 30px auto;
+}
+
+.cabecalho-menu__opcao{
+    display: inline;
+}
+
+.cabecalho-menu__opcao{
+    padding-right: 20px;
+}
+
+.cabecalho-menu__opcao-link{
+    color: var(--cor-do-menu);
+    font-family: var(--fonte-menu);
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.link1{
+    color:var(--cor-do-Home);
+}
+
+.cabecalho-container{
+    position: absolute;
+    top: 20%;
+    left: 900px;
+}
+
+.cabecalho-container__texto{
+    color: var(--cor-do-menu);
+    font-family: var(--fonte-menu);
+    font-size: 3rem;
+    width: 400px;
+    line-height:80px;
+}
+
+.cabecalho-container__texto span{
+    color: var(--cor-do-Home);
+    font-weight: 700;
+    font-size: 4.0rem;
+}
+
+.botao{
+    background-color: var(--cor-do-Home);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor-do-menu);
+    cursor: pointer;
+    font-family: var(--fonte-menu);
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 50px;
+
+}
+.cabecalho-container__botao{
+    width: 350px;
+    margin-top: 30px;
+}
+
+
+
+

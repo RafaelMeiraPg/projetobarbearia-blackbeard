@@ -1,0 +1,131 @@
+:root{
+    --fonte-menu:'Fira Sans', sans-serif;
+    --cor-do-menu:#FFFFFF;
+    --cor-do-Home:#FF8E00;
+    --font-texto: 'Verdana, Geneva, Tahoma, sans-serif';
+    --cor-texto:#FFF7F7;
+}
+
+.principal-quemSomos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.principal-texto{
+    padding: 50px;
+}
+
+.titulo{
+    font-family: var(--fonte-menu);
+    font-size: 2.0rem;
+    font-style: italic;
+    color: var(--cor-do-Home);
+    margin-bottom: 15px;
+}
+
+.principal-imagem{
+    background-image: url("../img/barbearia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.principal-texto__historia{
+    max-height: 90%;
+    line-height: 18px;
+    font-size: 1.1rem;
+    font-family: var(--fonte-menu);
+    color: var(--cor-texto);
+}
+
+.principal-servicos{
+    background-image: url("../img/parede.jpg");
+    background-size: contain;
+    height: 800px;
+}
+
+.principal-servicos__titulo{
+    color: var(--cor-do-Home);
+    font-family: var(--fonte-menu);
+    font-size: 2.0rem;
+    font-style: italic;
+    padding-top: 50px;
+    text-align: center;
+
+    
+}
+
+.principal-servicos__linha1--lista{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lista-item{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.9)),url("../img/bgservicos.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    margin: 60px 80px;
+}
+
+.lista-item__titulo{
+    color: var(--cor-do-Home);
+    font-family:var(--fonte-menu);
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 70px 0 20px 0;
+}
+
+.lista-item__texto{
+    color: var(--cor-do-menu);
+    font-family: var(--fonte-menu);
+    padding: 0 10px;
+    text-align: center;
+}
+
+.contato{
+    margin: 40px 50px;
+}
+
+.contato__titulo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contato__container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contato__formulario--titulo{
+    text-align: left;
+    font-size: 1.4rem;
+    font-family: var(--fonte-menu);
+    color: var(--cor-do-Home);
+    font-weight: 700;
+}
+
+.contato__formulario--input{
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    height: 25px;
+    padding: 5px;
+}
+
+.contato__formulario--textarea{
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+}
+
+.contato__botao{
+    width: 40%;
+}

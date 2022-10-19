@@ -1,0 +1,49 @@
+:root{
+    --fonte-menu:'Fira Sans', sans-serif;
+    --cor-do-menu:#FFFFFF;
+    --cor-do-Home:#FF8E00;
+    --font-texto: 'Verdana, Geneva, Tahoma, sans-serif';
+    --cor-texto:#FFF7F7;
+}
+
+.rodape{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    border-top: 2px solid var(--cor-do-Home);
+    margin-top: 90px;
+}
+
+.container{
+    color: var(--cor-texto);
+    font-family: var(--fonte-menu);
+    font-size: 1.2rem;
+    margin: 0 40px 0 20px;
+}
+
+.rodape__contato{
+    border-right: 2px solid var(--cor-do-Home);
+    padding-right: 40px;
+}
+
+.titulo__localizacao{
+    padding-top: 30px;
+}
+
+.texto{
+    margin-top: 10px;
+}
+
+.rodape__funcionamento{
+    padding-right: 40px;
+    border-right: 2px solid var(--cor-do-Home);
+}
+
+.rodape__localizacao--endereco{
+    max-width: 90%;
+    margin-bottom: 40px;
+}
+
+.rodape__localizacao--mapa{
+    padding-bottom: 50px;
+}
